@@ -2,4 +2,14 @@
 
 ## Day 01
 
-Criar o header utilizando navBar e estilizando com CSS
+Criar a barra de navegação utilizando navBar e estilizando com CSS.
+
+## Day 02
+
+Fazer o cabeçalho. Acabei adiantando as outras áreas também.
+
+#feedback7DoC
+
+Tem uma margem chata à direita da página que não encontrei forma de tirar, ainda.
+
+A sessão em azul está descentralizada em relação às outras, se alguém puder me ajudar a resolver, agradeço.
