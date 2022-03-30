@@ -11,5 +11,3 @@ Fazer o cabeçalho. Acabei adiantando as outras áreas também.
 #feedback7DoC
 
 Tem uma margem chata à direita da página que não encontrei forma de tirar, ainda.
-
-A sessão em azul está descentralizada em relação às outras, se alguém puder me ajudar a resolver, agradeço.

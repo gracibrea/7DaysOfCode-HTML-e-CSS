@@ -310,10 +310,8 @@ header {
 }
 
 .vagas-abertas {
-    background-color: rgb(138, 138, 241);
-    width: 1280px;
-    height: 940px;
-    margin-left: 80px;
+    width: 1440px;
+    height: 940px;    
     margin-top: 562px;
 }
 
@@ -324,14 +322,14 @@ header {
     padding: 0 22px;
 
     position: absolute;
-    width: 1210px;
+    width: 1440px;
     height: 358px;
     margin-right: 10px;
 }
 .vagas-design-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0 12px;
 
     width: 768px;
@@ -347,7 +345,7 @@ header {
     padding: 0 22px;
 
     position: absolute;
-    width: 1210px;
+    width: 1440px;
     height: 518px;
     margin-right: 10px;
 }
