@@ -13,30 +13,16 @@
 }
 
 body {
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
-  }
-
-.navbar {
-    display: flex;
-    width: 1440px;
-    height: 80px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 32px;
-    position: static;
-    width: 1480px;
-    height: 44px;
-    margin-top: 18px;
-    margin-left: 80px;    
+    justify-content: space-around;
+    align-items: center;    
+    padding: 1rem 0;
+    margin-top: 18px;  
 }
 
 .content {
@@ -44,23 +30,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    
-    position: static;
-    width: 362px;
-    height: 32px;
-    margin-left: calc(50% - 362px/2 - 160px);
-    margin-top: calc(50% - 32px/2);
-    
-    width: 362px;
-    height: 32px;
-    margin-top: 6px;
-    margin-left: 299px;
-    gap: 40px;    
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px;
+    height: 22px;
 }
 
 .navbar-brand { /*Button base*/
@@ -69,19 +39,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px;
-
-    position: static;
-    height: 26.99px;
-    /* margin-left: 2.5%;
-    margin-right: 85.94%;
-    margin-top: calc(50% - 26.99px/2 + 0px);*/
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0;
     text-decoration: none;
-
+    margin-right: 2rem
 }
 
 .navbar-brand img{
@@ -92,20 +51,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-
-    position: static;
-    width: 362px;
-    height: 32px;
+    padding: 0px;    
     margin-left: 0px;
     margin-top: 0px;
-
-/* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 40px;
 }
 
 .content ul{
@@ -138,92 +86,54 @@ body {
     align-items: center;    
     padding: 0px;
     position: static;
-    width: 207px;
-    height: 44px;
     margin-left: 450px; /*1041*/
-    margin-top: 18px;
-    flex: none;
 }
 
 .navigationActions button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 10px 18px;
-
-    position: static;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background-color: #8e2424;
-    border: 1px solid #8e2424;
-    box-sizing: border-box;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-
-    width: 112px;
-    height: 44px;
-}
-
-.navigationActions .btn-entrar {
-    width: 83px;
-    height: 44px;
+    cursor: pointer;
     background-color: transparent;
     border: none;
-    color: var(--text1-color);
+    border-radius: 8px;
+    color: var(--text1-color);    
+    font-size: 16px;
+    width: fit-content;
+}
+
+.navigationActions .btn-cadastrar {
+    background-color: #8e2424;
+    color: #fff;    
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 0px;
-    position: static;
-    width: 1440px;
-    height: 407px;
+    padding: 7rem 0;
+    gap: 1rem;  /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos os filhos de uma div com display flex*/
 }
 
-.sobrenos {
-    width: 78px;
-    height: 24px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--redtext-color);
+.sobre-nos {
+    color: #8e2424;
 }
 
 .titulo {
-    width: 603px;
-    height: 60px;
-    color: #101828;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: -0.02em;
+    font-size: 2rem;
 }
 
 .descricao-titulo {
+    color: var(--text1-color); 
     text-align: center;
-    width: 791px;
-    height: 60px;
-    font-weight: 400;
-    font-size: 20px;
     line-height: 30px;
+    max-width: 50%;
 }
 
-.metricas {
-    background-color: #e8edf7;
+.metricas-container {
+    background-color: #F9FAFB;
     display: flex;
     justify-content: center;
-    width: 1440px;
+    align-items: center;
+    flex-wrap: wrap;
     height: 288px;
     padding: 0 96px;
 }
@@ -233,8 +143,7 @@ header {
     font-weight: 600;
     font-size: 60px;
     line-height: 72px;
-    letter-spacing: -0.02em;
-    
+    letter-spacing: -0.02em;    
 }
 
 .cases {
@@ -260,8 +169,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-shrink:1 ;
     padding: 96px 0px;
-    width: 1440px;
     height: 1798px;
 }
 
@@ -370,6 +279,15 @@ header {
     color: #101828;
 }
 
+.job-post {
+    min-width: 768px;
+    min-height: 116px;
+    border-radius: 16px;
+    padding: 24px, 24px, 28px, 24px;
+    border: 1px solid #EAECF0;   
+    margin-top: 20px; 
+}
+
 .vaga-titulo {
     width: fit-content;
     height: 24px;
@@ -379,7 +297,6 @@ header {
     line-height: 28px;    
     color: #101828;
 }
-
 .vaga-detalhe {
     width: fit-content;
     height: 24px;
@@ -390,29 +307,98 @@ header {
     color: #667085;
 }
 
-span {
+.vaga-detalhe span {
     padding-left: 30px ;
 }
 
-.job-post {
-    width: 768px;
-    height: 116px;
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(178, 255, 127) ;
+    height: 500px;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
     border-radius: 16px;
-    padding: 24px, 24px, 28px, 24px;
-    border: 1px solid #EAECF0;   
-    margin-top: 20px; 
+    margin: 0 112px 96px
 }
 
+.depoimentos span {
+    color:var(--redtext-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
 
-.depoimentos {
-    background-color:rgb(178, 255, 127) ;
-    width: 1440px;
-    height: 500px;
+.depoimentos h3 {
+    color: #101828;
+    font-size: 36px;;
+    line-height: 44px;
+    font-weight: 500;
+    max-width: 80%;
+    margin-bottom: 20px;
+    
+}
+
+figcaption {
+    margin: 10px 0;
+    margin-bottom: 15px;
 }
 
 .oportunidades {
-    background-color:rgb(255, 185, 127) ;
-    width: 1440px;
-    height: 430px;
+    background-color: #F9FAFB;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.oportunidades h3 {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 44px;
+    color: #101828;
+    margin-top: 96px;
+}
+
+.oportunidades p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    margin: 30px;
+}
+
+.oportunidades .button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+
+.button input, button {
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-right: 5px;
+} 
+.button input {
+    border: 1px solid #D0D5DD;
+    color: #667085;
+}
+
+.button button {
+    border: 1px solid #8E2424;
+    background-color: #8e2424;
+    color: white;
+}
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 0 96px 0;
+    color: #98A2B3;
+    background-color: #F9FAFB;
+}
