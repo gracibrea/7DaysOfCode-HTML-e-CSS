@@ -178,7 +178,7 @@ header {
     width: fit-content;   
     height: fit-content;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: var(--redtext-color);
     border-radius: 50px;
@@ -326,7 +326,7 @@ header {
 
 .depoimentos span {
     color:var(--redtext-color);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 20px;
     margin-bottom: 10px;
