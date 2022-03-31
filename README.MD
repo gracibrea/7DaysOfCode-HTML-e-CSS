@@ -18,6 +18,6 @@ Finzalização da section métricas, da section vagas, da section depoimentos e 
 
 Fiquei contente com o resultado até aqui. Agora é deixar 100% responsiva.
 
-[Veja como ficou](https://gracibrea.github.io/7DaisOfCode-HTML-e-CSS/#)
+[Veja como ficou](https://gracibrea.github.io/7DaysOfCode-HTML-e-CSS/)
 
 @giovannamoeller vou continuar acompanhando. Valeu!!!
